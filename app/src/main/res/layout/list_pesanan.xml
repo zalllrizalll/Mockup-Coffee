@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="3dp"
+    android:layout_margin="10dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="#bcbcbc"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/namaCoffee"
+            android:text="Nama Coffee"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:text="Qty    : "
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/namaCoffee"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/qty"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:text="jumlah"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/namaCoffee"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:text="Rp. "
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="245dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/namaCoffee"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/view_harga"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:text="Harga"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/namaCoffee"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:text="Note : "
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/qty"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/viewKeterangan"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:text="Keterangan"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/qty"
+            />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
