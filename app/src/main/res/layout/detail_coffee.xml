@@ -21,7 +21,7 @@
             android:id="@+id/imgDetail"
             android:layout_width="300dp"
             android:layout_height="300dp"
-            android:src="@drawable/americano_coffee"
+            android:src="@drawable/cappuccino"
             tools:ignore="MissingConstraints" />
 
     </androidx.cardview.widget.CardView>

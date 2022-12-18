@@ -23,14 +23,6 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".RincianPesanan"
-            android:exported="false"
-            android:label="Rincian Pesanan">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
             android:name=".FormPemesanan"
             android:exported="false"
             android:label="Form Pemesanan"

@@ -8,9 +8,6 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
@@ -58,28 +55,28 @@ public class MainActivity extends AppCompatActivity {
         coffee.setNama("Cappuccino");
         coffee.setHarga("Rp. 25.000");
         coffee.setDeskripsi("Cappuccino adalah latte yang dibuat dengan lebih banyak busa(foam) daripada steamed milk, seringkali ditambah dengan taburan bubuk kakao atau kayu manis di atasnya. Terdapat juga variasi cappuccino yang menggunakan krim sebagai pengganti susu atau yang memberikan penambah rasa");
-        coffee.setImage(R.drawable.americano_coffee);
+        coffee.setImage(R.drawable.cappuccino);
         listCoffee.add(coffee);
 
         coffee = new Coffee();
         coffee.setNama("Cafe Latte");
         coffee.setHarga("Rp. 20.000");
         coffee.setDeskripsi("Cafe latte adalah jenis minuman kopi perpaduan antara campuran susu sapi dan kopi espresso, tapi komposisi susu di kopi jenis ini mampu menyamarkan pahitnya kopi");
-        coffee.setImage(R.drawable.robusta_coffee);
+        coffee.setImage(R.drawable.cafe_latte);
         listCoffee.add(coffee);
 
         coffee = new Coffee();
         coffee.setNama("Macchiato");
         coffee.setHarga("Rp. 30.000");
         coffee.setDeskripsi("Macchiato adalah jenis minuman kopi berbasis espresso lainnya yang memiliki sedikit busa di atasnya. Kata 'macchiato' berarti tanda atau noda. Ini mengacu pada tanda bahwa steamed milk meninggalkan permukaan espresso saat dituangkan ke dalam minuman");
-        coffee.setImage(R.drawable.brewed_coffee);
+        coffee.setImage(R.drawable.macchiato);
         listCoffee.add(coffee);
 
         coffee = new Coffee();
         coffee.setNama("Mocha Latte");
         coffee.setHarga("Rp. 22.000");
         coffee.setDeskripsi("Mocha latte adalah jenis minuman kopi yang pas bagi Anda pecinta kopi. Mocha adalah jenis minuman kopi yang terdiri dari espresso, coklat, steamed milk dan foam. Mocha merupakan perpaduan unik antara kopi dan cokelat panas");
-        coffee.setImage(R.drawable.espresso_coffee);
+        coffee.setImage(R.drawable.mocha_latte);
         listCoffee.add(coffee);
 
         return listCoffee;
